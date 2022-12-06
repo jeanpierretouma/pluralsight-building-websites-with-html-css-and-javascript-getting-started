@@ -12,3 +12,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+
+
+/* --- Reusable Sections --- */
+/* Nav */
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #a493c0;
+}
+
+nav a:visited,
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {text-align: center;}
+nav > ul {display: inline;}
+
+nav > ul > li {
+  display: inline-block;
+  margin: 0 5px;
+  list-style: none;
+}
