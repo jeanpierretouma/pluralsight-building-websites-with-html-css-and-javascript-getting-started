@@ -15,7 +15,7 @@ body {
 
 
 /* --- Reusable Sections --- */
-/* Nav */
+/* Nav Section */
 header {
   display: block;
   position: fixed;
@@ -62,4 +62,20 @@ footer {padding: 15px;}
 /* Media Queries */
 @media only screen and (min-width: 768px) {
   aside, article {max-width: 832px;}
+}
+
+
+/* --- Pages --- */
+/* Home Page */
+.banner {width: 100%;}
+
+.title {
+  margin: .5em 0;
+  font-size: 3em;
+}
+
+.sub-title {
+  padding: 1em;
+  background: #fff;
+  font-size: 1.5em;
 }
