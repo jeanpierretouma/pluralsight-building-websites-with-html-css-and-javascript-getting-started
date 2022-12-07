@@ -40,3 +40,26 @@ nav > ul > li {
   margin: 0 5px;
   list-style: none;
 }
+
+/* Main Section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90%;
+  padding-top: 3em;
+  padding-bottom: .8em;
+  background-image: url(../images/background.png);
+}
+
+aside, article {padding: 2em;}
+aside {text-align: center;}
+p {margin: .5em 0;}
+
+/* Footer Section */
+footer {padding: 15px;}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  aside, article {max-width: 832px;}
+}
