@@ -59,11 +59,6 @@ p {margin: .5em 0;}
 /* Footer Section */
 footer {padding: 15px;}
 
-/* Media Queries */
-@media only screen and (min-width: 768px) {
-  aside, article {max-width: 832px;}
-}
-
 
 /* --- Pages --- */
 /* Home Page */
@@ -78,4 +73,48 @@ footer {padding: 15px;}
   padding: 1em;
   background: #fff;
   font-size: 1.5em;
+}
+
+/* Pies Page */
+.columns-desktop {
+  display: flex;
+  flex-direction: column;
+}
+
+.pie {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.pie img {width: 100%;}
+
+.pie .columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie .title {font-weight: bold;}
+.pie .price {text-align: right;}
+
+.pie button {
+  padding: 10px;
+  border: 1px solid #f6aeae;
+  border-radius: 3px;
+  background-color: #f6aeae;
+  color: #fff;
+}
+
+.pie button:hover,
+.pie button:active {background-color: #f17f7f;}
+
+
+/* --- Media Queries --- */
+@media only screen and (min-width: 768px) {
+  aside, article {max-width: 832px;}
+}
+
+@media only screen and (min-width: 526px) {
+  .columns-desktop {flex-direction: row;}
 }
