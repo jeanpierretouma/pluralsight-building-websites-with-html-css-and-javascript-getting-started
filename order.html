@@ -142,7 +142,10 @@
 
     if (order) {
       const pieOrder = JSON.parse(order);
-      
+
+      const orderInput = document.querySelector("#pie-order");
+      orderInput.value = order;
+
       const pie = document.querySelector(".pie");
 
       const img = pie.querySelector("img");
