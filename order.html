@@ -139,6 +139,26 @@
 <script>
   window.addEventListener("DOMContentLoaded", function(e) {
 
+    const locationBox = document.querySelector("#location");
+
+    let location = {
+      latitude: "unknown",
+      longitude: "unknown"
+    };
+
+    window.navigator.geolocation.getCurrentPosition(
+      function(position) {
+        location = {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude
+        };
+        locationBox.value = JSON.stringify(location);
+      },
+      function(error) {
+        locationBox.value = JSON.stringify(location);
+      }
+    );
+
     const order = localStorage.getItem("order");
 
     if (order) {
