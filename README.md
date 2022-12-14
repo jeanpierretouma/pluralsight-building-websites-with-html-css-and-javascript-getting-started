@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [https://github.com/jeanpierretouma/pluralsight-building-websites-with-html-css-and-javascript-getting-started](https://github.com/jeanpierretouma/pluralsight-building-websites-with-html-css-and-javascript-getting-started)
-- Live Site URL: [jeanpierretouma.github.io/pluralsight-building-websites-with-html-css-and-javascript-getting-started](jeanpierretouma.github.io/pluralsight-building-websites-with-html-css-and-javascript-getting-started)
+- Live Site URL: [https://jeanpierretouma.github.io/pluralsight-building-websites-with-html-css-and-javascript-getting-started](https://jeanpierretouma.github.io/pluralsight-building-websites-with-html-css-and-javascript-getting-started)
 
 ## Process
 
